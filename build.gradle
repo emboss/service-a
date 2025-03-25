@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'demo'
-version = '1.0.0'
+version = System.getProperty('releaseVersion', '1.0.0-SNAPSHOT')
 
 java {
 	toolchain {

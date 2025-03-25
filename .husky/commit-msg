@@ -8,7 +8,6 @@ COMMIT_MSG_FILE="$1"
 COMMIT_MSG=$(cat "$COMMIT_MSG_FILE")
 
 # Define the Conventional Commit regex pattern
-#CONVENTIONAL_COMMIT_REGEX="^(feat|fix|docs|style|refactor|perf|test|chore|build|ci|revert|release)(\([a-z0-9\-]+\))?: .{1,}"
 CONVENTIONAL_COMMIT_REGEX="^(feat|fix|chore|docs|test|style|refactor|perf|build|ci|revert|release)(\(.+?\))?: .{1,}$"
 
 # Check if the commit message matches the pattern

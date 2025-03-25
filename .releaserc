@@ -1,6 +1,6 @@
 {
      "branches": "main",
-     "repositoryUrl": "https://github.com/emboss/service-a",
+     "repositoryUrl": "git@github.com:emboss/service-a.git",
      "debug": "true",
      "plugins": [
         "@semantic-release/commit-analyzer",
